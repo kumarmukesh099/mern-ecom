@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+//Rating without using materialui
+  {/* <span>
+                <i className={value >= 1 ? 'fas fa-star' : value >= 0.5 ? 'fas fa-start-half-alt' : 'far fa-star'}
+                style={{color}}
+                >
+                </i>
+            </span>
+            <span>
+                <i className={value >= 2 ? 'fas fa-star' : value >= 1.5 ? 'fas fa-start-half-alt' : 'far fa-star'}>
+                </i>
+            </span>
+            <span>
+                <i className={value >= 3 ? 'fas fa-star' : value >= 2.5 ? 'fas fa-start-half-alt' : 'far fa-star'}>
+                </i>
+            </span>
+            <span>
+                <i className={value >= 4 ? 'fas fa-star' : value >= 3.5 ? 'fas fa-start-half-alt' : 'far fa-star'}>
+                </i>
+            </span>
+            <span>
+                <i className={value >= 5 ? 'fas fa-star' : value >= 4.5 ? 'fas fa-start-half-alt' : 'far fa-star'}>
+                </i>
+            </span> */}
+
+
+Inner reducer initial value load first then the middleware reducer value
