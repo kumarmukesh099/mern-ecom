@@ -13,6 +13,8 @@ Product View/Product Rating & Comment
 
 Checkout process (shipping, payment method, etc) - User can place a order (add to cart then add the shipping address then select the payment method and then do the payment)
 
+Admin can update the order status(Mark the order as delivered when the order gets delivered)
+
 Node Version : v16.1.0 npm version : 8.1.0
 
 first run to install the dependencies
