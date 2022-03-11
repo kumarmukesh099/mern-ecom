@@ -1,2 +1,24 @@
 //this is an fullstack ecommerce app
-//you can run this app using npm run dev
+This is social media like app-
+
+Login User as an admin or as an normal user
+
+Sigup User
+
+Update Profile
+ 
+Add Products/Edit Products
+
+Products Rating
+
+User can place a order (add to cart then add the shipping address then select the payment method and then do the payment)
+
+Node Version : v16.1.0 npm version : 8.1.0
+
+first run
+
+    npm install
+    
+After this to run android
+
+    npm run dev
