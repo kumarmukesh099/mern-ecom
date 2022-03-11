@@ -70,6 +70,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+//Important details for refrence
+
 //Rating without using materialui
   {/* <span>
                 <i className={value >= 1 ? 'fas fa-star' : value >= 0.5 ? 'fas fa-start-half-alt' : 'far fa-star'}
@@ -96,3 +98,57 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 Inner reducer initial value load first then the middleware reducer value
+
+
+//we have dotenv to set the process.env in .env file
+//redux-thunk allow us to make asyncronous request
+//redux-thunk allow us to have function within a function
+//react-redux we use to bring data into the components and globally
+//we have the getState to access all the redux reducer data
+//usefull
+https://stackoverflow.com/questions/65810726/show-image-in-square-grid-react-material-ui-grid/65866258
+//pm.environment.set("token", pm.response.json().token)
+to save token in any route in postman
+
+
+we can add a prehook on schema but we can't use it with virtual schema
+//like a prehook
+// userSchema.pre('save',async function(next){
+//     if(!this.isModified('password')){
+//         next();
+//     }
+//     const salt = await bcrypt.genSalt(10);
+//     this.password = await bcrypt.hash(this.password,salt)  
+
+// })
+
+//    await User.create({
+//      game : 12,
+//      name, //we can also use User.create({name, email,password})
+//      email,
+//      password
+//    });
+
+
+ [e.target.name] = e.target.value //you need square brackets to tell that this refers to dynamic key name 
+
+user.create return data while user.UpdateOne return acknowledgement
+{
+  acknowledged: true,
+  modifiedCount: 1,
+  upsertedId: null,
+  upsertedCount: 0,
+  matchedCount: 1
+}
+
+//to set token in postman
+pm.environment.set("token", pm.response.json().token)
+pm.environment.get("variable_key");
+
+
+//we can use morgan to log the route & route time in the console
+
+//multer to upload images
+
+//react helmet allow us to add the meta tags
+
