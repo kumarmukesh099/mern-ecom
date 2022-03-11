@@ -16,9 +16,11 @@ User can place a order (add to cart then add the shipping address then select th
 Node Version : v16.1.0 npm version : 8.1.0
 
 first run
-
+```javascript
     npm install
-    
-After this to run android
-
-    npm run dev
+```
+After this
+to run the project
+```javascript
+npm run dev
+```
